@@ -100,6 +100,11 @@ transition: transform .5s;
     width: 3rem !important;
 
 }
+.pilates-carousel{
+    object-fit: contain;
+    height: 100%; /* Kapsayıcıya göre boyunu ayarlayın */
+    max-height: 500px; /* Maksimum yüksekliği belirlemek isteyebilirsiniz */
+  }
 .n-cards img{
     height: 300px !important;
     object-fit: cover;
